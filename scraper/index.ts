@@ -21,7 +21,7 @@ interface Task {
 
   // --- 1. BACA DATA LAMA (HISTORY) ---
   let existingTasks: Task[] = []
-  const dataFile = 'data.json'
+  const dataFile = '../web/src/data/data.json'
 
   if (fs.existsSync(dataFile)) {
     try {

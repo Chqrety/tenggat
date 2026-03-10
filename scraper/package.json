@@ -1,13 +1,13 @@
 {
-  "name": "tenggat",
-  "module": "index.ts",
+  "name": "scraper",
   "type": "module",
   "private": true,
-  "devDependencies": {
-    "@types/bun": "latest"
+  "scripts": {
+    "start": "ts-node index.ts"
   },
-  "peerDependencies": {
-    "typescript": "^5"
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.0"
   },
   "dependencies": {
     "dotenv": "^17.3.1",
